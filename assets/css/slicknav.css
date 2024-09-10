@@ -3,6 +3,19 @@
  * (c) 2016 Josh Cope
  * licensed under MIT
  */
+
+ .projects p{
+  font-size: large;
+ }
+ .projects a{
+  color: rgb(137, 49, 49);
+ }
+ .projects a:hover{
+  color: rgb(137, 49, 49);
+  text-decoration: underline;
+ }
+
+
 .slicknav_btn {
   position: relative;
   display: block;
@@ -15,7 +28,7 @@
     margin-top: 0.188em; }
 
 .slicknav_menu {
-  *zoom: 1; }
+  zoom: 1; }
   .slicknav_menu .slicknav_menutxt {
     display: block;
     line-height: 1.188em;
