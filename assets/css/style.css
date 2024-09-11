@@ -4062,6 +4062,10 @@ hr {
   background-size: cover;
   background-repeat: no-repeat;
 }
+.gallery-img:hover{
+  transform: scale(1.1); /* Use transform instead of transition for scaling */
+  transition: transform 0.5s ease-in-out; /* Transition for the transform effect */
+}
 
 /* line 12, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_gallery.scss */
 .gallery-area .box .big-img {
@@ -4190,6 +4194,12 @@ hr {
   -o-transition: 0.4s;
   transition: 0.4s;
 }
+.single-services:hover {
+  transform: scale(1.06); /* Use transform instead of transition for scaling */
+  transition: transform 0.5s ease-in-out; /* Transition for the transform effect */
+  box-shadow: 0 0 20px rgba(160, 60, 29, 0.926); /* Correct the box-shadow syntax */
+}
+
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   /* line 2, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_my-expertiese.scss */
