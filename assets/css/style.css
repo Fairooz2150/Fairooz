@@ -640,6 +640,13 @@ hr {
   border-radius: 0px;
 }
 
+
+.submit-btn2:hover {
+  background: #f0df9b;
+}
+
+
+
 /* line 361, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_common.scss */
 .border-btn {
   border: 1px solid #FD8F5F;
